@@ -1,0 +1,14 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.brand-holder{
+  padding: 0.4em 0;
+}
+.nav-header{
+  background: #000000 !important;
+}
+.nav-list-spacing{
+  margin: 0 1.5em;
+  font-weight: bolder;
+  padding-bottom: 0.7em;
+}
