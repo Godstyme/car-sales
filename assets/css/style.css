@@ -12,3 +12,6 @@
   font-weight: bolder;
   padding-bottom: 0.7em;
 }
+.banner-slide{
+  object-fit: cover;
+}
