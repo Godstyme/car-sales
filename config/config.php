@@ -14,5 +14,6 @@ if ( !defined ( 'EMAIL' ) )
     define ( 'EMAIL', 'godstime@gmail.com');
 if ( !defined ( 'SLOGAN' ) )
     define ( 'SLOGAN', 'Best services');
-
+    
+$date = new DateTime('NOW');
 ?>

@@ -1,0 +1,9 @@
+Options All -Indexes
+RewriteEngine On
+
+RewriteRule ^home/?$   index.php
+RewriteRule ^admin/?$   admin.php
+RewriteRule ^about/?$   about.php
+RewriteRule ^contact/?$   contact.php
+RewriteRule ^service/?$   service.php
+

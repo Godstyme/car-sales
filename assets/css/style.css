@@ -70,6 +70,46 @@ html,body{
   font-weight: 900;
 }
 
+/* ============= about page ========== */
+.banner{
+  height: auto;
+  width: 100%;
+  background:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0, 0, 0.8)), url(../imgs/testimonial-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+  padding: 3em 0em 10em 0em;
+}
+#about-info{
+  width: 80%;
+  padding: 1em 2em;
+  margin: auto;
+}
+.about-caption{
+  font-style: normal;
+  color: #ed563b;
+}
+.about-img-logo-holder{
+  margin: auto;
+  width: 80%;
+}
+.trade-mark{
+  font-size: 0.9em;
+}
+.social-icon{
+  list-style-type: none;
+}
+.font-ico{
+  display: inline;
+  margin: 0 1em;
+  color: #ed563b;
+}
+#social-icon-holder{
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
 @media (max-width: 450px) {
   .caption h6 {
     font-size: 1em;

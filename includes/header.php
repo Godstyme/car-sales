@@ -2,9 +2,7 @@
   require_once 'config/config.php';
   $page = $_SERVER['REQUEST_URI'];
   $page = explode("/", $page);
-  // $page = $page[2]; 
   $last = end($page);
-  echo $last;
 
   if ($last == "home" or $last == ""):
     $currentPage = "home"; 
