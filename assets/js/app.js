@@ -1,6 +1,6 @@
 // Page loading animation
-$(window).on('load', function() {
+// $(window).on('load', function() {
 
-  $('#js-preloader').addClass('loaded');
+//   $('#js-preloader').addClass('loaded');
 
-});
+// });

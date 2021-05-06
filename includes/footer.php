@@ -1,6 +1,6 @@
 
     <footer class="bg-dark text-light pt-4">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-6" id="social-icon-holder">
               <p >Connect with Us:</p>
@@ -12,10 +12,11 @@
                 <li class="font-ico"><a href="#" class="text-light"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
               </ul>
             </div>
-            <div class="container-fluid trade-mark col-md-6">
-              Copyright &copy; &nbsp; <?php echo date('Y');?> <?php echo FULL_NAME;?> | Designed By 
-              <a href="#">Egba Ifeanyi.</a>
-              <span> All Rights Reserved</span>
+            <div class="trade-mark col-md-6">
+              <?php echo FULL_NAME;?> 
+                Designed &#38; Built By 
+                <a href="#">Egba Ifeanyi.</a>&nbsp; &#124;&nbsp; Copyright &copy; <?php echo date('Y');?>
+              <span> All Rights Reserved.</span>
             </div>
         </div>
       </div>
