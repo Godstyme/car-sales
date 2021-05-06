@@ -5,6 +5,7 @@ html,body{
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+/* ====== header here ========== */
 .brand-holder{
   padding: 0.4em 0;
 }
@@ -16,6 +17,12 @@ html,body{
   font-weight: bolder;
   padding-bottom: 0.7em;
 }
+.btn-custom-design{
+  background: #ed563b !important;
+  width: 8em;
+  border: #ed563b;
+}
+/* ========= header here ========== */
 .banner-slide{
   object-fit: cover;
 }
@@ -69,7 +76,14 @@ html,body{
   color: #ed563b;
   font-weight: 900;
 }
-
+.btn-banner{
+  background: #ed563b !important;
+  width: 10em;
+  margin: auto;
+}
+.banner-link{
+  text-decoration: none;
+}
 /* ============= about page ========== */
 .banner{
   height: auto;
@@ -95,6 +109,9 @@ html,body{
   margin: auto;
   width: 80%;
 }
+/* ============= about page ========== */
+
+/* ======   fooote here ============ */
 .trade-mark{
   font-size: 0.9em;
 }
@@ -110,6 +127,21 @@ html,body{
   display: grid;
   grid-template-columns: 30% 60%;
 }
+/* ======   fooote here ============ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 450px) {
   .caption h6 {
     font-size: 1em;

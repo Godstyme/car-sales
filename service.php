@@ -3,7 +3,7 @@
 ?>
 <main>
   <div class="banner">
-    <h3 class="text-capitalize pt-5 text-center about-caption">Read about us</h3>
+    <h3 class="text-capitalize pt-5 text-center about-caption">Our Services</h3>
     <div class="about-img-logo-holder text-center">
       <img class="img-fluid" src="assets/imgs/line-dec.png">
     </div>

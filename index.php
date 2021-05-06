@@ -11,8 +11,8 @@
       <div class="caption text-center">
           <h6>Lorem ipsum dolor sit amet</h6>
           <h2 class="text-uppercase">Best <em>car dealer</em> in town!</h2>
-          <div class="main-button">
-            <a href="contact.html">Contact Us</a>
+          <div class="btn-banner p-2 rounded-0 btn">
+            <a class="text-light banner-link" href="<?php echo SITEURL ?>contact">Contact Us</a>
           </div>
       </div>
       </div>
@@ -31,7 +31,7 @@
             <div class="card-body">
               <h5 class="card-title"><del>&#36;8000</del>&nbsp;&nbsp;<label>&#36;6000</label></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn text-light btn-custom-design">Order a Car</a>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
             <div class="card-body">
               <h5 class="card-title"><del>&#36;6000</del>&nbsp;&nbsp;<label>&#36;4000</label></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn text-light btn-custom-design">Order a Car</a>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
             <div class="card-body">
               <h5 class="card-title"><del>&#36;6000</del>&nbsp;&nbsp;<label>&#36;5000</label></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn text-light btn-custom-design">Order a Car</a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
             <div class="card-body">
               <h5 class="card-title"><del>&#36;8000</del>&nbsp;&nbsp;<label>&#36;6000</label></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn text-light btn-custom-design">Order a Car</a>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
             <div class="card-body">
               <h5 class="card-title"><del>&#36;6000</del>&nbsp;&nbsp;<label>&#36;4000</label></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn text-light btn-custom-design">Order a Car</a>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
             <div class="card-body">
               <h5 class="card-title"><del>&#36;6000</del>&nbsp;&nbsp;<label>&#36;5000</label></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn text-light btn-custom-design">Order a Car</a>
             </div>
           </div>
         </div>
@@ -92,7 +92,9 @@
   </section>
 </main>
 
-
+<?php
+  require_once 'modal.php'
+?>
 
 
 <?php
