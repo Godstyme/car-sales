@@ -1,9 +1,9 @@
 <?php
 
 if ( !defined ( 'SITEURL' ) )
-	define ( 'SITEURL', 'http://localhost/sugcarsalessystem/' );
+	define ( 'SITEURL', 'http://localhost/car-sales/' );
 if ( !defined ( 'MULTIPATH' ) )
-	define ( 'MULTIPATH', 'http://localhost/sugcarsalessystem/assets/' );
+	define ( 'MULTIPATH', 'http://localhost/car-sales/assets/' );
 if ( !defined ( 'FULL_NAME' ) )
     define ( 'FULL_NAME', 'CAR SALES' );
     if ( !defined ( 'PHONE1' ) )

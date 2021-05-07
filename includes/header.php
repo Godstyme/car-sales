@@ -26,9 +26,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo FULL_NAME .' :: '. SLOGAN ?></title>
-    <link rel="icon" href="<?php echo MULTIPATH ?>imgs/favicon-icon/favicon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo MULTIPATH ?>css/style.css">
+    <link rel="icon" href="assets/imgs/favicon-icon/favicon.png">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="server/js/request.js"></script>
   </head>
   <body>
     <!-- ***** Preloader Start ***** -->
