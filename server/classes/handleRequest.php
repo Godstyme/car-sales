@@ -3,10 +3,11 @@ session_start();
 require_once("processrequest.php");
 require_once 'fetchData.php';
 
-$requestingPage = stripslashes($_GET['_mode']);
+$requestingPage = stripslashes($_REQUEST['_mode']);
 $processRequest = new processRequest;
 $header = "From: hello@mps.org.ng";
 $date =  date("Y/m/d");
+$response = null;
 switch ($requestingPage) {
 
 	case "adminLogin":
