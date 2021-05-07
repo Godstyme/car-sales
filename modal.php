@@ -25,8 +25,8 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
-          <div class="d-grid text-center">
-            <button type="submit" class="btn btn-custom-design text-light">Sign In</button>
+          <div class="d-grid gap-2 text-center">
+            <button class="btn text-light" type="submit" style="background: #ed563b !important;">Login</button>
           </div>
         </form>
       </div>
@@ -35,12 +35,12 @@
           <div class="row">
             <div class="col-md-6"><label>Don't have an account? </label></div>
             <div class="col-md-6">
-              <a class="nav-link text-dark"  data-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signup"style="cursor:pointer;color:#ed563b !important;">Sign Up here!</a>
+              <a class="nav-link text-dark"  data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signup"style="cursor:pointer;color:#ed563b !important;">Sign Up here!</a>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <a href="#forgotpassword" data-toggle="modal" data-dismiss="modal" class="text-dark">Forgot Password ?
+              <a href="#forgotpassword" data-bs-toggle="modal"  class="text-dark" href="#">Forgot Password ?
               </a>
             </div>
             <div class="col-md-6">
@@ -84,8 +84,8 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
-          <div class="d-grid text-center">
-            <button type="submit" class="btn btn-custom-design text-light">Sign Up</button>
+          <div class="d-grid gap-2 text-center">
+            <button class="btn text-light" type="submit" style="background: #ed563b !important;">Sign Up</button>
           </div>
         </form>
       </div>
@@ -94,12 +94,12 @@
           <div class="row">
             <div class="col-md-6"><label>Already got an account? </label></div>
             <div class="col-md-6">
-              <a class="nav-link text-dark" data-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signin" style="cursor:pointer;color:#ed563b !important;">Sign In here!</a>
+              <a class="nav-link text-dark" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signin" style="cursor:pointer;color:#ed563b !important;">Sign In here!</a>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-            <a class="text-dark banner-link" href="<?php echo SITEURL ?>home" style="color:#ed563b !important;">Back to Home?</a>
+              <a class="text-dark banner-link" href="<?php echo SITEURL ?>home" style="color:#ed563b !important;">Back to Home?</a>
             </div>
           </div>
         </div>
